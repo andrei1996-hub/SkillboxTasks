@@ -1,0 +1,3 @@
+/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles/SkillboxTasks.dir
