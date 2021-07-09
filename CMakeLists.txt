@@ -4,4 +4,4 @@ project(SkillboxTasks)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(SkillboxTasks
-        M11T5.cpp)
+        M10T1.cpp)

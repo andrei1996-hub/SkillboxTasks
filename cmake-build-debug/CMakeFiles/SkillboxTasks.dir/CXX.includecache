@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/andrei1996/CLionProjects/SkillboxTasks/M11T5.cpp
+/home/andrei1996/CLionProjects/SkillboxTasks/M10T1.cpp
 iostream
+-
+cmath
 -
 
