@@ -43,6 +43,7 @@ string getDiagonal( char dir, string str) {
 
 int gameConfAnalyze(string row1, string row2, string row3){
     string diag1, diag2;
+    bool isExclusiveSituation = row1 == "XXX" && row2[0] == 'X' && row3[0] == 'X';
     int xInLine = 0, oInLine = 0;
     string rowConcat = row1 + row2 + row3;
     int xCount = elementCount(rowConcat, 'X');
@@ -84,14 +85,14 @@ int gameConfAnalyze(string row1, string row2, string row3){
     if (xInLine == 0 && oInLine == 0 && dotCount > 0) cout << "Nobody.\n";
     else if (xInLine == 1 && oInLine == 1 ) cout << "Incorrect.\n";
     else if (xInLine == 1 &&  oInLine == 0) {
-        bool isExclusiveSituation = row1 == "XXX" && row2[0] == 'X' && row3[0] == 'X';
-        if (xCount - oCount == 1 || isExclusiveSituation) cout << "Petya won.\n";
+        if (xCount - oCount == 1) cout << "Petya won.\n";
         else cout << "Incorrect.\n";
     }
     else if (oInLine == 1 && xInLine == 0) {
         if (xCount == oCount) cout << "Vanya won.\n";
         else cout << "Incorrect.\n";
     }
+    else if (isExclusiveSituation) cout << "Petya won.\n";
     else if (xInLine > 1) cout << "Incorrect.\n" << endl;
     else if (oInLine > 1) cout << "Incorrect.\n" << endl;
     else  cout  << "Nobody.\n" << endl;

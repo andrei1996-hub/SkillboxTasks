@@ -142,60 +142,6 @@ SkillboxTasks/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/build
 .PHONY : SkillboxTasks/fast
 
-M11T1.o: M11T1.cpp.o
-
-.PHONY : M11T1.o
-
-# target to build an object file
-M11T1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T1.cpp.o
-.PHONY : M11T1.cpp.o
-
-M11T1.i: M11T1.cpp.i
-
-.PHONY : M11T1.i
-
-# target to preprocess a source file
-M11T1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T1.cpp.i
-.PHONY : M11T1.cpp.i
-
-M11T1.s: M11T1.cpp.s
-
-.PHONY : M11T1.s
-
-# target to generate assembly for a file
-M11T1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T1.cpp.s
-.PHONY : M11T1.cpp.s
-
-M11T4.o: M11T4.cpp.o
-
-.PHONY : M11T4.o
-
-# target to build an object file
-M11T4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T4.cpp.o
-.PHONY : M11T4.cpp.o
-
-M11T4.i: M11T4.cpp.i
-
-.PHONY : M11T4.i
-
-# target to preprocess a source file
-M11T4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T4.cpp.i
-.PHONY : M11T4.cpp.i
-
-M11T4.s: M11T4.cpp.s
-
-.PHONY : M11T4.s
-
-# target to generate assembly for a file
-M11T4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M11T4.cpp.s
-.PHONY : M11T4.cpp.s
-
 M11T5.o: M11T5.cpp.o
 
 .PHONY : M11T5.o
@@ -232,12 +178,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SkillboxTasks"
-	@echo "... M11T1.o"
-	@echo "... M11T1.i"
-	@echo "... M11T1.s"
-	@echo "... M11T4.o"
-	@echo "... M11T4.i"
-	@echo "... M11T4.s"
 	@echo "... M11T5.o"
 	@echo "... M11T5.i"
 	@echo "... M11T5.s"
