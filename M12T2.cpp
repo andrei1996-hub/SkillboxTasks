@@ -6,6 +6,8 @@
 using namespace std;
 
 int main() {
+    cout << "=====Duplicate Finder=====\n\n";
+
     int arr[] = {114, 111, 106, 107, 108, 105, 115, 108, 110, 109, 112, 113, 116, 117, 118};
     int sumArrElements = 0, sumIncr = 0;
     int initX = 105;
