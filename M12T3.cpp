@@ -30,7 +30,7 @@ void quickSort(float array[], int low, int high) {
 
 int main() {
     cout << "=====Quick Sort Algorithm Implementation=====\n\n";
-    
+
     float numbers[15];
     for (int i = 0; i < 15; ++i) {
         cout << "Enter the decimal value: ";
