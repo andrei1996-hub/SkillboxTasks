@@ -1,10 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
 bool isCorrectCoordsInput(int row, int col) {
-    if (row >= 0 && row < 10 && col >= 0 && col < 10) return true;
-    return false;
+    return (row >= 0 && row < 10 && col >= 0 && col < 10);
 }
 
 bool initField(char m[10][10]) {
@@ -50,8 +48,7 @@ void displayFields(char field[10][10], char winfieldEnemy[10][10]) {
     }
 }
 
-bool isPossibleToSet(char field[10][10], int startRow, int startCol, int endRow, int endCol)
-{
+bool isPossibleToSet(char field[10][10], int startRow, int startCol, int endRow, int endCol) {
     int row = (startRow < endRow ? startRow : startCol);
     int col = (startCol < endCol ? startCol : endCol);
     for (int i = col; i <= col + abs(endCol - startCol); ++i){
@@ -62,8 +59,7 @@ bool isPossibleToSet(char field[10][10], int startRow, int startCol, int endRow,
     return true;
 }
 
-void inputCoords(int& row, int& col)
-{
+void inputCoords(int& row, int& col) {
     while (true) {
         cin.clear();
         cin >> row >> col;
@@ -75,8 +71,7 @@ void inputCoords(int& row, int& col)
     }
 }
 
-bool isAttackSuccessful(char field[10][10], char attackedField[10][10] , int rowAttacked, int colAttacked)
-{
+bool isAttackSuccessful(char field[10][10], char attackedField[10][10] , int rowAttacked, int colAttacked) {
     char d = getCharAt(field, rowAttacked, colAttacked);
     if (d == '#') {
         attackedField[rowAttacked][colAttacked] = 'X';
@@ -105,8 +100,7 @@ bool isFleetDestroyed(char field [10][10]) {
     return true;
 }
 
-bool isShipSizeCorrect(int startRow, int startCol, int endRow, int endCol, int typeShip)
-{
+bool isShipSizeCorrect(int startRow, int startCol, int endRow, int endCol, int typeShip) {
     if ((typeShip == abs(endRow - startRow) + 1 && startCol == endCol) ||
     (typeShip == abs(endCol - startCol) + 1 && startRow == endRow)) return true;
     return false;
@@ -143,7 +137,8 @@ bool isFleetSet (char field[10][10], int shipSize, int shipCount) {
                 field[startRow][startCol] = '#';
                 return true;
             } else {
-                cout << "This position is occupied. Try again.\n";
+                cout << "This position is occupied or coords input sequence is wrong.\n";
+                cout << "Try again, or enter coords vice versa.\n";
             }
         }
 
@@ -167,16 +162,17 @@ bool isFleetSet (char field[10][10], int shipSize, int shipCount) {
                     continue;
                 }
             } else if (!isPossibleToSet(field, startRow, startCol, endRow, endCol)){
-                cout << "This position is occupied. Try again.\n";
+                cout << "This position is occupied or coords input sequence is wrong.\n";
+                cout << "Try again, or enter coords vice versa.\n";
             } else {
                 cout << "Incorrect position. Try again.\n";
             }
         }
     }
+    return false;
 }
 
-bool setFleet(char field[10][10])
-{
+bool setFleet(char field[10][10]) {
     int shipSize, shipCount;
     bool isSet;
     for (shipSize = 1; shipSize <= 4; ++shipSize) {
@@ -189,7 +185,7 @@ bool setFleet(char field[10][10])
 }
 
 int main() {
-    bool shotFlag1, shotFlag2;
+    bool shotFlag1, shotFlag2 = true;
     int  rowShot, colShot;
     char player1field[10][10];
     char player2field[10][10];

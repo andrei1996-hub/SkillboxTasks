@@ -66,27 +66,27 @@ include CMakeFiles/SkillboxTasks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SkillboxTasks.dir/flags.make
 
-CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o: CMakeFiles/SkillboxTasks.dir/flags.make
-CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o: ../M14FINAL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o -c /home/andrei1996/CLionProjects/SkillboxTasks/M14FINAL.cpp
+CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o: CMakeFiles/SkillboxTasks.dir/flags.make
+CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o: ../M14T6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o -c /home/andrei1996/CLionProjects/SkillboxTasks/M14T6.cpp
 
-CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrei1996/CLionProjects/SkillboxTasks/M14FINAL.cpp > CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.i
+CMakeFiles/SkillboxTasks.dir/M14T6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SkillboxTasks.dir/M14T6.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrei1996/CLionProjects/SkillboxTasks/M14T6.cpp > CMakeFiles/SkillboxTasks.dir/M14T6.cpp.i
 
-CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrei1996/CLionProjects/SkillboxTasks/M14FINAL.cpp -o CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.s
+CMakeFiles/SkillboxTasks.dir/M14T6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SkillboxTasks.dir/M14T6.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrei1996/CLionProjects/SkillboxTasks/M14T6.cpp -o CMakeFiles/SkillboxTasks.dir/M14T6.cpp.s
 
 # Object files for target SkillboxTasks
 SkillboxTasks_OBJECTS = \
-"CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o"
+"CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o"
 
 # External object files for target SkillboxTasks
 SkillboxTasks_EXTERNAL_OBJECTS =
 
-SkillboxTasks: CMakeFiles/SkillboxTasks.dir/M14FINAL.cpp.o
+SkillboxTasks: CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o
 SkillboxTasks: CMakeFiles/SkillboxTasks.dir/build.make
 SkillboxTasks: CMakeFiles/SkillboxTasks.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SkillboxTasks"

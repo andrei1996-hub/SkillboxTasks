@@ -10,6 +10,10 @@ int main() {
     float v[4];
     float r[4];
 
+    for (int i = 0; i < sizeof r; ++i) {
+        r[i] = 0.0f;
+    }
+
     cout << "Matrix initialization:\n";
     for(int i = 0; i < 4; ++i) {
         for(int j = 0; j < 4; ++j) {
