@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/andrei1996/CLionProjects/SkillboxTasks/M14T6.cpp
+/home/andrei1996/CLionProjects/SkillboxTasks/M15T4.cpp
 iostream
+-
+vector
 -
 

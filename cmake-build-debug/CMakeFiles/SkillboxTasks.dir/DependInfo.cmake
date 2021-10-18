@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrei1996/CLionProjects/SkillboxTasks/M14T6.cpp" "/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles/SkillboxTasks.dir/M14T6.cpp.o"
+  "/home/andrei1996/CLionProjects/SkillboxTasks/M15T4.cpp" "/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles/SkillboxTasks.dir/M15T4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
