@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/andrei1996/CLionProjects/SkillboxTasks/M15T4.cpp">
+		<Unit filename="/home/andrei1996/CLionProjects/SkillboxTasks/aux.cpp">
 			<Option target="SkillboxTasks"/>
 		</Unit>
 		<Unit filename="/home/andrei1996/CLionProjects/SkillboxTasks/CMakeLists.txt">

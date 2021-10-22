@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SkillboxTasks.dir/M15T4.cpp.o"
+  "CMakeFiles/SkillboxTasks.dir/aux.cpp.o"
   "SkillboxTasks"
   "SkillboxTasks.pdb"
 )

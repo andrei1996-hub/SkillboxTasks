@@ -129,29 +129,29 @@ SkillboxTasks/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/build
 .PHONY : SkillboxTasks/fast
 
-M15T4.o: M15T4.cpp.o
-.PHONY : M15T4.o
+aux.o: aux.cpp.o
+.PHONY : aux.o
 
 # target to build an object file
-M15T4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M15T4.cpp.o
-.PHONY : M15T4.cpp.o
+aux.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.o
+.PHONY : aux.cpp.o
 
-M15T4.i: M15T4.cpp.i
-.PHONY : M15T4.i
+aux.i: aux.cpp.i
+.PHONY : aux.i
 
 # target to preprocess a source file
-M15T4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M15T4.cpp.i
-.PHONY : M15T4.cpp.i
+aux.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.i
+.PHONY : aux.cpp.i
 
-M15T4.s: M15T4.cpp.s
-.PHONY : M15T4.s
+aux.s: aux.cpp.s
+.PHONY : aux.s
 
 # target to generate assembly for a file
-M15T4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M15T4.cpp.s
-.PHONY : M15T4.cpp.s
+aux.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.s
+.PHONY : aux.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SkillboxTasks"
-	@echo "... M15T4.o"
-	@echo "... M15T4.i"
-	@echo "... M15T4.s"
+	@echo "... aux.o"
+	@echo "... aux.i"
+	@echo "... aux.s"
 .PHONY : help
 
 
