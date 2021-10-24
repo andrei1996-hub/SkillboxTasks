@@ -66,27 +66,27 @@ include CMakeFiles/SkillboxTasks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SkillboxTasks.dir/flags.make
 
-CMakeFiles/SkillboxTasks.dir/aux.cpp.o: CMakeFiles/SkillboxTasks.dir/flags.make
-CMakeFiles/SkillboxTasks.dir/aux.cpp.o: ../aux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkillboxTasks.dir/aux.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SkillboxTasks.dir/aux.cpp.o -c /home/andrei1996/CLionProjects/SkillboxTasks/aux.cpp
+CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o: CMakeFiles/SkillboxTasks.dir/flags.make
+CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o: ../M17T3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o -c /home/andrei1996/CLionProjects/SkillboxTasks/M17T3.cpp
 
-CMakeFiles/SkillboxTasks.dir/aux.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SkillboxTasks.dir/aux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrei1996/CLionProjects/SkillboxTasks/aux.cpp > CMakeFiles/SkillboxTasks.dir/aux.cpp.i
+CMakeFiles/SkillboxTasks.dir/M17T3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SkillboxTasks.dir/M17T3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrei1996/CLionProjects/SkillboxTasks/M17T3.cpp > CMakeFiles/SkillboxTasks.dir/M17T3.cpp.i
 
-CMakeFiles/SkillboxTasks.dir/aux.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SkillboxTasks.dir/aux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrei1996/CLionProjects/SkillboxTasks/aux.cpp -o CMakeFiles/SkillboxTasks.dir/aux.cpp.s
+CMakeFiles/SkillboxTasks.dir/M17T3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SkillboxTasks.dir/M17T3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrei1996/CLionProjects/SkillboxTasks/M17T3.cpp -o CMakeFiles/SkillboxTasks.dir/M17T3.cpp.s
 
 # Object files for target SkillboxTasks
 SkillboxTasks_OBJECTS = \
-"CMakeFiles/SkillboxTasks.dir/aux.cpp.o"
+"CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o"
 
 # External object files for target SkillboxTasks
 SkillboxTasks_EXTERNAL_OBJECTS =
 
-SkillboxTasks: CMakeFiles/SkillboxTasks.dir/aux.cpp.o
+SkillboxTasks: CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o
 SkillboxTasks: CMakeFiles/SkillboxTasks.dir/build.make
 SkillboxTasks: CMakeFiles/SkillboxTasks.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrei1996/CLionProjects/SkillboxTasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SkillboxTasks"

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/SkillboxTasks.dir/aux.cpp.o -o SkillboxTasks 
+/usr/bin/c++ -g CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o -o SkillboxTasks 

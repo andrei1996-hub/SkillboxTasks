@@ -129,29 +129,29 @@ SkillboxTasks/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/build
 .PHONY : SkillboxTasks/fast
 
-aux.o: aux.cpp.o
-.PHONY : aux.o
+M17T3.o: M17T3.cpp.o
+.PHONY : M17T3.o
 
 # target to build an object file
-aux.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.o
-.PHONY : aux.cpp.o
+M17T3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M17T3.cpp.o
+.PHONY : M17T3.cpp.o
 
-aux.i: aux.cpp.i
-.PHONY : aux.i
+M17T3.i: M17T3.cpp.i
+.PHONY : M17T3.i
 
 # target to preprocess a source file
-aux.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.i
-.PHONY : aux.cpp.i
+M17T3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M17T3.cpp.i
+.PHONY : M17T3.cpp.i
 
-aux.s: aux.cpp.s
-.PHONY : aux.s
+M17T3.s: M17T3.cpp.s
+.PHONY : M17T3.s
 
 # target to generate assembly for a file
-aux.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/aux.cpp.s
-.PHONY : aux.cpp.s
+M17T3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SkillboxTasks.dir/build.make CMakeFiles/SkillboxTasks.dir/M17T3.cpp.s
+.PHONY : M17T3.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SkillboxTasks"
-	@echo "... aux.o"
-	@echo "... aux.i"
-	@echo "... aux.s"
+	@echo "... M17T3.o"
+	@echo "... M17T3.i"
+	@echo "... M17T3.s"
 .PHONY : help
 
 
