@@ -1,0 +1,1 @@
+Which extension will the .cpp file have after preprocessing?
