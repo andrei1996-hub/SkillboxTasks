@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/SkillboxTasks.dir/M18T4.cpp.o -o SkillboxTasks 
+/usr/bin/c++ -g CMakeFiles/SkillboxTasks.dir/M19T5.cpp.o -o SkillboxTasks 
