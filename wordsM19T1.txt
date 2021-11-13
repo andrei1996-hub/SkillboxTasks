@@ -1,0 +1,4 @@
+programming C++ Kali Linux
+kernel class datatype vector
+loop iterator vector
+array
