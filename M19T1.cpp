@@ -32,7 +32,7 @@ int main(){
     }
 
     int repCount = 0;
-    for (int i = 0; i < words.size(); ++i){
+    for (int i = 0; i <  words.size(); ++i){
         if (wordToFind == words[i]) ++repCount;
     }
     wordsFile.close();

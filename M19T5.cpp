@@ -47,7 +47,7 @@ void question(int curSec) {
 
     while (!questionFile.eof()) {
         string str;
-        getline(questionFile, str);
+        getline(questionFile,  str);
 
         cout << str << endl;
         questionFile.close();

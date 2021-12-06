@@ -33,7 +33,7 @@ int main() {
             ++count;
         }
 
-        for (int i = 0; i < count; ++i) {
+        for (int i = 0;  i < count; ++i) {
             if (salaries[i] > salaries[max]) max = i;
             sum += salaries[i];
         }
