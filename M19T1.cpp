@@ -4,10 +4,11 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
 
 using namespace std;
 
-const char* filePath = "/home/andrei1996/CLionProjects/SkillboxTasks/wordsM19T1.txt";
+string filePath = "wordsM19T1.txt";
 int main(){
     cout << "=====WordFinder=====\n\n";
 
@@ -16,16 +17,22 @@ int main(){
     cin >> wordToFind;
 
     ifstream wordsFile;
-    string words[30];
-    int wordCount = 0;
+    vector<string> words;
     wordsFile.open(filePath);
-    while (!wordsFile.eof()) {
-        wordsFile >> words[wordCount];
-        ++wordCount;
+
+    if (wordsFile.is_open()) {
+        string curWord;
+        while (!wordsFile.eof()) {
+            wordsFile >> curWord;
+            words.push_back(curWord);
+        }
+    } else {
+        cerr << "File not found.\n";
+        return 0;
     }
 
     int repCount = 0;
-    for (int i = 0; i < wordCount; ++i){
+    for (int i = 0; i < words.size(); ++i){
         if (wordToFind == words[i]) ++repCount;
     }
     wordsFile.close();

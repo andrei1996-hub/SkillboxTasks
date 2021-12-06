@@ -35,7 +35,7 @@ void rotate(bool sectors[], int &currSector, int offset) {
 }
 
 void question(int curSec) {
-    string path, prefix = "/home/andrei1996/CLionProjects/SkillboxTasks/M19T5Q&A/QTN_", ext = ".txt";
+    string path, prefix = "M19T5Q&A/QTN_", ext = ".txt";
     char index[2];
     index[0] = curSec / 10 + 48;
     index[1] = curSec % 10 + 48;
@@ -55,7 +55,7 @@ void question(int curSec) {
 }
 
 bool isAnswerCorrect(int curSec, const string& answer) {
-    string path, prefix = "/home/andrei1996/CLionProjects/SkillboxTasks/M19T5Q&A/ANS_", ext = ".txt";
+    string path, prefix = "M19T5Q&A/ANS_", ext = ".txt";
     char index[2];
     index[0] = curSec / 10 + 48;
     index[1] = curSec % 10 + 48;
@@ -84,7 +84,7 @@ int main() {
 
     bool sectors[13];
     int currentSector = rand(0, 12);
-    initSector(sectors, 132, true);
+    initSector(sectors, 13, true);
 
     int playerScore = 0, viewerScore = 0, offset = 0, round = 0;
 
